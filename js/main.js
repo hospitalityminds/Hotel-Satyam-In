@@ -6,10 +6,12 @@ $(window).scroll(function () {
     if (scroll > 20) {
       $(".social-bar").addClass("social-none");
       $(".fixed-top").addClass("nav-flow");
+      $(".navbar-brand1").addClass("small-img");
 
     } else {
       $(".social-bar").removeClass("social-none");
       $(".fixed-top").removeClass("nav-flow");
+      $(".navbar-brand1").removeClass("small-img");
     }
   });
 
